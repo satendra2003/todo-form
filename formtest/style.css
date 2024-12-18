@@ -1,0 +1,40 @@
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.text{
+    background-color: goldenrod;
+    border-radius: 10%;
+    margin-top: 12px;
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h3{
+    font-weight: bold;
+    color: midnightblue;
+}
+input{
+    width:330px ;
+    height: 30px;
+    border-radius: 7%;
+}
+button{
+    color: white;
+     background-color: blueviolet;
+    width: 330px;
+    height: 30px;
+    border-radius: 7%;
+}
+#button:hover{
+    cursor: pointer;
+}
